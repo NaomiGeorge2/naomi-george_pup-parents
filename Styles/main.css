@@ -1,0 +1,10 @@
+html {
+  background: hex#8AAB64;
+  color: black;
+}
+
+main {
+  height: 137px;
+  background-color: hex#8AAB64;
+  margin: 0 auto;
+}
