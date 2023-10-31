@@ -1,10 +1,79 @@
 html {
-  background: hex#8AAB64;
+  background-color: #ffffff;
   color: black;
 }
 
 main {
-  height: 137px;
-  background-color: hex#8AAB64;
+  height: 4034px;
+  width: 1920;
+  background-color: #b0dd7c;
   margin: 0 auto;
+  padding: 2em;
+}
+
+h1 {
+  background-color: #67a75f;
+  height: 138px;
+  width: 100%;
+  font-size: 80px;
+  margin: auto;
+}
+
+.btn {
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-block-start: 0 auto;
+  margin-block-end: 0 auto;
+  background-color: #90b18b;
+  border-color: #90b18b;
+}
+
+.main-page-content {
+  margin-right: 6em;
+  margin-left: 6em;
+  height: 2145px;
+}
+.page-title {
+  background-color: White;
+  margin: auto;
+}
+
+p {
+  background-color: white;
+  margin: auto;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 3605px;
+  margin: auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.social-content {
+  display: flex;
+  flex-flow: column;
+  margin-left: 3em;
+  margin-right: 3em;
+  width: 50%;
+}
+
+.contact-content {
+  display: flex;
+  flex-flow: column;
+  margin-left: 3em;
+  margin-right: 3em;
+  width: 50%;
+}
+
+.privacy-content {
+  display: flex;
+  flex-flow: column;
+  margin-left: 3em;
+  margin-right: 3em;
+  width: 50%;
 }
