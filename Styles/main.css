@@ -77,6 +77,45 @@ h1 {
   margin: 0 auto;
   height: 2145px;
 }
+
+.jack-stick {
+  background-image: url(Images/DSC_0149.JPG);
+  width: 1041px;
+  position: absolute;
+  height: 741px;
+  margin-top: -10px;
+}
+
+.man-pup {
+  background-image: url(Images/yogendra-singh-K8JxScoZb4A-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-top: -10px;
+  margin-left: 1041px;
+  width: 879px;
+  height: 587px;
+  position: absolute;
+}
+
+.boy-pup {
+  background-image: url(Images/dillon-kydd-f7OttGMaVok-unsplash.jpg);
+  background-repeat: no-repeat;
+  width: 881px;
+  height: 1322px;
+  margin-top: 713px;
+  position: absolute;
+}
+
+.corgi-pup {
+  background-image: url(Images/patrick-hendry-yC-9hSsEr7Y-unsplash.jpg);
+  height: 726px;
+  width: 1089px;
+  margin-left: 881px;
+  margin-top: 562px;
+  margin-right: 0px;
+  position: absolute;
+}
 .page-title {
   background-color: White;
   margin: auto;
