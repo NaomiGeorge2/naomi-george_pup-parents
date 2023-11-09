@@ -116,6 +116,14 @@ h1 {
   margin-right: 0px;
   position: absolute;
 }
+
+.girl-pup {
+  background-image: url(Images/r-d-smith-mwzVasRlDpc-unsplash.jpg);
+  height: 729px;
+  width: 1091px;
+  margin-top: 1287px;
+  margin-left: 881px;
+}
 .page-title {
   background-color: White;
   margin: auto;
