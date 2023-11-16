@@ -3,28 +3,7 @@ html {
   max-width: 1920px;
   margin-top: 0em;
 }
-a {
-  height: 61px;
-  font-family: amandine, sans-serif;
-  font-style: normal;
-  font-size: 25px;
-  text-decoration: none;
-}
 
-nav a:link {
-  color: black;
-}
-
-nav a:visited {
-  color: black;
-}
-nav a:hover {
-  color: white;
-}
-
-nav a:active {
-  color: white;
-}
 main {
   height: 4034px;
   width: 1920px;
@@ -50,24 +29,44 @@ h1 {
   position: absolute;
 }
 
-nav {
+.top-content {
   background-color: #90b18b;
-  margin: -20px auto;
-  height: auto;
+  color: white;
+  margin: -29px auto;
+  height: 90px;
   width: 1920px;
+  font-family: amandine, sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-decoration: none;
 }
 
-nav ul {
+.top-content:hover {
+  color: white;
+}
+.top-content:link {
+  color: black;
+}
+
+.top-content:visited {
+  color: black;
+}
+
+.top-content:active {
+  color: white;
+}
+
+.top-content ul {
   list-style-type: none;
   text-align: center;
 }
 
-nav li {
+.top-content li {
   display: inline-flex;
   margin: 0 2em;
-  padding-inline-start: 2em;
-  padding-inline-end: 2em;
-  padding-top: 1.5em;
+  padding-inline-start: 1em;
+  padding-inline-end: 1em;
+  padding-top: 1em;
 }
 
 .main-page-content {
@@ -145,7 +144,7 @@ p {
   background-color: #8aab64;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 1920px;
   height: 460px;
   margin-top: 100%;
   margin-bottom: 0;
@@ -153,102 +152,47 @@ p {
 }
 
 .social-content {
-  display: flex;
-  flex-flow: column;
-  margin-left: auto;
-  margin-right: 3em;
+  background-color: #8aab64;
+  text-align: left;
+  margin-left: 3em;
+  margin-right: 0;
 }
 
 .social-title {
   font-size: 50px;
 }
 
-.social-insta {
-  font-size: 30px;
-  font-family: amandine, sans-serif;
+.nav-b1 {
+  background-color: #8aab64;
+  text-decoration-style: none;
+  list-style: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
 }
 
-.social-insta:hover {
+.nav-b1:visited {
+  color: black;
+}
+
+.nav-b1:hover {
   color: white;
 }
 
-.social-twitter {
-  font-family: amandine, sans-serif;
-  font-size: 30px;
-  margin-top: 15px;
-}
-
-.social-twitter:hover {
-  color: white;
-}
-
-.social-face {
-  font-family: amandine, sans-serif;
-  font-size: 30px;
-  margin-top: 15px;
-}
-
-.social-face:hover {
+.nav-b1:active {
   color: white;
 }
 
 .contact-content {
   display: flex;
   flex-flow: column;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin-left: 0em;
+  margin-right: 3em;
+  text-align: center;
 }
 
-.contact-title {
-  font-size: 50px;
-}
-
-.contact-info {
-  font-family: amandine, sans-serif;
-  font-size: 30px;
-}
-
-.contact-info:hover {
-  color: white;
-}
-
-.support {
-  font-family: amandine, sans-serif;
-  font-size: 30px;
-  margin-top: 15px;
-}
-
-.support:hover {
-  color: white;
-}
-
-.legal-content {
-  display: flex;
-  flex-flow: column;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.legal {
-  font-size: 50px;
-}
-
-.terms {
-  font-family: amandine, sans-serif;
-  font-size: 30px;
-}
-
-.terms:hover {
-  color: white;
-}
-
-.policy {
-  font-family: amandine, sans-serif;
-  font-size: 30px;
-  margin-top: 15px;
-}
-
-.policy:hover {
-  color: white;
+.nav-b2 {
+  text-decoration-style: none;
+  list-style: none;
+  color: black;
 }
