@@ -1,6 +1,6 @@
 html {
   height: 4034px;
-  max-width: 1920px;
+  width: 1920px;
   margin-top: 0em;
 }
 
@@ -12,7 +12,7 @@ main {
 .title-screen {
   background-color: #67a75f;
   background-image: url(..Images/DSC_0095.png);
-  height: 137px;
+  /* height: 137px; */
   width: 1920px;
   background-repeat: no-repeat;
 }
@@ -29,44 +29,44 @@ h1 {
   position: absolute;
 }
 
-.top-content {
+.tc {
   background-color: #90b18b;
-  color: white;
-  margin: -29px auto;
+  margin: -29px auto 0 auto;
   height: 90px;
   width: 1920px;
   font-family: amandine, sans-serif;
   font-style: normal;
   font-size: 25px;
-  text-decoration: none;
 }
 
-.top-content:hover {
-  color: white;
-}
-.top-content:link {
-  color: black;
-}
-
-.top-content:visited {
-  color: black;
-}
-
-.top-content:active {
-  color: white;
-}
-
-.top-content ul {
+.nav-tc ul {
   list-style-type: none;
   text-align: center;
+  color: white;
 }
 
-.top-content li {
+.nav-tc li {
   display: inline-flex;
   margin: 0 2em;
   padding-inline-start: 1em;
   padding-inline-end: 1em;
   padding-top: 1em;
+}
+
+.nav-tc :link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-tc :visited {
+  color: black;
+}
+
+.nav-tc :hover {
+  color: white;
+}
+.nav-tc :active {
+  color: white;
 }
 
 .main-page-content {
@@ -79,7 +79,7 @@ h1 {
   width: 1041px;
   position: absolute;
   height: 741px;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .man-pup {
@@ -87,7 +87,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-left: 1041px;
   width: 879px;
   height: 587px;
@@ -147,22 +147,26 @@ p {
   width: 1920px;
   height: 460px;
   margin-top: 100%;
+  padding-right: 2em;
+  padding-left: 2em;
   margin-bottom: 0;
   text-align: center;
 }
 
 .social-content {
   background-color: #8aab64;
-  text-align: left;
-  margin-left: 3em;
+  text-align: center;
+  margin-left: 5em;
   margin-right: 0;
 }
 
 .social-title {
   font-size: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-.nav-b1 {
+.nav-b1 a {
   background-color: #8aab64;
   text-decoration-style: none;
   list-style: none;
@@ -171,28 +175,102 @@ p {
   flex-direction: column;
 }
 
-.nav-b1:visited {
+.nav-b1 a:visited {
   color: black;
 }
 
-.nav-b1:hover {
+.nav-b1 a:hover {
   color: white;
 }
 
-.nav-b1:active {
+.nav-b1 a:active {
   color: white;
 }
 
 .contact-content {
   display: flex;
   flex-flow: column;
-  margin-left: 0em;
-  margin-right: 3em;
+  padding-left: 3em;
   text-align: center;
 }
 
-.nav-b2 {
+.contact-title {
+  font-size: 50px;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.nav-b2 a {
   text-decoration-style: none;
   list-style: none;
   color: black;
+}
+
+.supplies {
+  height: 4034px;
+  width: 1920px;
+}
+
+.title-screen1 {
+  background-color: #67a75f;
+  background-image: url(..Images/DSC_0095.png);
+  /* height: 137px; */
+  width: 1920px;
+  background-repeat: no-repeat;
+}
+
+.header1 {
+  background-repeat: no-repeat;
+  font-size: 80px;
+  font-weight: lighter;
+  margin: -141px auto 0px;
+  font-family: renata, sans-serif;
+  color: white;
+  padding-left: 350px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.puppy-supplies {
+  text-align: center;
+  font-size: 80px;
+  font-family: renata, sans-serif;
+}
+
+.food {
+  background-image: url(Images/kacper-chrzanowski-pOzPy0vF7HY-unsplash.jpg);
+  width: 290px;
+  height: 510px;
+  border-radius: 41px;
+  padding-left: 75px;
+}
+
+.toys {
+  background-image: url(Images/samia-liamani-9lVdutKM9vg-unsplash.jpg);
+  width: 290px;
+  height: 510px;
+  border-radius: 41px;
+  padding-left: 75px;
+}
+
+.accessories {
+  background-image: url(Images/roberto-nickson-To57QlgkoIo-unsplash.jpg);
+  width: 290px;
+  height: 510px;
+  border-radius: 41px;
+  padding-left: 75px;
+}
+
+.health {
+  background-image: url(Images/enecta-cannabis-extracts-2hIqr9hBUMg-unsplash.jpg);
+  width: 290px;
+  height: 510px;
+  border-radius: 41px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.nav-ps ul {
+  list-style-type: none;
+  text-align: center;
 }
