@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pup Parents</title>
     <link rel="stylesheet" href="./Styles/main.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/npo6kfx.css">
   </head>
   <body>
     <main>
@@ -12,9 +13,17 @@
       <div class="title-screen">
         <img src="Images/DSC_0095.png" alt="Puppy" class="home-nav" />
         <h1><a href="#"></a>Pup Parents</a></h1>
+        <div class="wrap">
+          <div class="search">
+             <input type="text" class="searchTerm" placeholder="What are you looking for?">
+             <button type="submit" class="searchButton">
+               <i class="fa fa-search"></i>
+            </button>
+          </div>
+       </div>
         <nav class="tc">
           <ul class="nav-tc">
-            <li><a href="#about-us"> About Us </a></li>
+            <li><a href="#title" class="about-us"> About Us </a></li>
             <li><a href="puppysupplies.html"> Puppy Supplies </a></li>
             <li><a href="#"> Training </a></li>
             <li><a href="#"> Home Planning </a></li>
@@ -48,7 +57,7 @@
         </div>
 
         <!--Page Title-->
-        <h2 class="page-title">Welcome to Pup Parents!</h2>
+        <h2 class="page-title" id="title">Welcome to Pup Parents!</h2>
         <p class="para-1" id="about-us">
           Hi there! Welcome to Pup Parents, were our goal is to help you with
           your new addition to your household. If its your first time having a
@@ -99,17 +108,20 @@
           <h2 class="contact-title">Contact</h2>
           <nav class="b2">
             <ul class="nav-b2">
-              <li><a href="#"> Contact information</a></li>
-              <li><a href="#">Support</a></li>
+              <li><a href="#" class="info"> Contact information</a></li>
+              <li><a href="#" class="support">Support</a></li>
             </ul>
           </nav>
         </div>
 
         <div class="legal-content">
           <h2 class="legal">Legal</h2>
-          <ul></ul>
-          <li><a href="#">Terms and Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <nav class="b3">
+            <ul class="nav-b3">
+             <li><a href="#">Terms and Conditions</a></li>
+             <li><a href="#">Privacy Policy</a></li>
+            </ul> 
+         </nav>
         </div>
       </section>
     </main>
