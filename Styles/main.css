@@ -55,7 +55,7 @@ main {
 }
 
 .searchTerm:focus {
-  color: #00b4cc;
+  color: #000000;
 }
 
 .searchButton {
@@ -357,19 +357,80 @@ p {
 .nav-b3 a:active {
   color: white;
 }
+
 /* PUPPY SUPPLIES PAGE */
 
 .supplies {
-  height: 4034px;
+  height: 1823px;
   width: 1920px;
 }
 
 .title-screen1 {
-  background-color: #67a75f;
+  background-color: #9cba79;
   background-image: url(..Images/DSC_0095.png);
-  /* height: 137px; */
+  height: 137px;
   width: 1920px;
+  background-image: linear-gradient(45deg, #4f761b 1%, #c8e2c6 100%),
+    linear-gradient(-45deg, #c8e2c6 0%, #9cba79 80%);
+}
+
+/*search bar*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*Resize the wrap to see the search bar change!*/
+.wrap1 {
+  width: 30%;
+  position: absolute;
+  margin-right: 41px;
+  margin-left: 1400px;
+  margin-top: -100px;
+  margin-bottom: 10;
+}
+
+.search1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm1 {
+  width: 300px;
+  border: 3px solid #709571;
+  border-right: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 38px 0 0 38px;
+  outline: none;
+  color: #9dbfaf;
+  font-size: 20px;
+}
+
+.searchTerm1:focus {
+  color: #000000;
+}
+
+.searchButton1 {
+  width: 50px;
+  border: 1px solid #709571;
+  background-color: #709571;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 38px 38px 0;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+h1 {
   background-repeat: no-repeat;
+  font-size: 80px;
+  font-weight: lighter;
+  margin: -141px auto 0px;
+  font-family: renata, sans-serif;
+  color: white;
+  padding-left: 350px;
+  padding-top: 20px;
+  position: absolute;
 }
 
 .header1 {
@@ -384,10 +445,66 @@ p {
   position: absolute;
 }
 
+.tc1 {
+  background-color: #90b18b;
+  margin: 20px auto 0 -1400px;
+  height: 90px;
+  width: 1920px;
+  font-family: amandine, sans-serif;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.about-us1 {
+  font-family: balboa-plus-primary, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav-tc1 ul {
+  list-style-type: none;
+  text-align: center;
+  color: white;
+}
+
+.nav-tc1 li {
+  display: inline-flex;
+  margin: 0 2em;
+  padding-inline-start: 1em;
+  padding-inline-end: 1em;
+  padding-top: 1em;
+}
+
+.nav-tc1 :link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-tc1 :visited {
+  color: black;
+}
+
+.nav-tc1 :hover {
+  color: white;
+}
+.nav-tc1 :active {
+  color: white;
+}
+
+.header1 :link {
+  color: white;
+}
+
 .puppy-supplies {
+  margin-top: 100px;
   text-align: center;
   font-size: 80px;
   font-family: renata, sans-serif;
+}
+
+.supplies-images {
+  border-radius: 41px 41px 41px 41px;
+  margin-left: 263px;
 }
 
 .food {
@@ -395,7 +512,6 @@ p {
   width: 290px;
   height: 510px;
   border-radius: 41px;
-  padding-left: 75px;
 }
 
 .toys {
@@ -403,7 +519,7 @@ p {
   width: 290px;
   height: 510px;
   border-radius: 41px;
-  padding-left: 75px;
+  margin-left: 5em;
 }
 
 .accessories {
@@ -411,7 +527,7 @@ p {
   width: 290px;
   height: 510px;
   border-radius: 41px;
-  padding-left: 75px;
+  margin-left: 5em;
 }
 
 .health {
@@ -419,11 +535,170 @@ p {
   width: 290px;
   height: 510px;
   border-radius: 41px;
-  padding-left: 75px;
-  padding-right: 75px;
+  margin-left: 5em;
 }
 
 .nav-ps ul {
   list-style-type: none;
   text-align: center;
+}
+
+.bottom-content {
+  background-color: #8aab64;
+  display: flex;
+  flex-direction: row;
+  width: 1920px;
+  height: 460px;
+  margin-top: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.social-content {
+  background-color: #8aab64;
+  padding-left: 150px;
+}
+
+.social-title {
+  font-family: balboa-plus-primary, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.nav-b1 {
+  list-style: none;
+  font-family: amandine, sans-serif;
+  font-size: 40px;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.nav-b1 a {
+  background-color: #8aab64;
+  text-decoration-style: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 23px;
+  text-align: center;
+  margin-inline-start: 0;
+}
+
+.nav-b1 :link {
+  text-decoration: none;
+}
+
+.nav-b1 a:visited {
+  color: black;
+}
+
+.nav-b1 a:hover {
+  color: white;
+}
+
+.nav-b1 a:active {
+  color: white;
+}
+
+.contact-content {
+  flex-flow: column;
+  padding-left: 432px;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: balboa-plus-primary, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.nav-b2 {
+  list-style: none;
+  font-family: amandine, sans-serif;
+  font-size: 40px;
+  padding-inline-start: 0;
+  margin: 0;
+  padding-top: 23px;
+}
+
+.nav-b2 a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.nav-b2 :link {
+  text-decoration: none;
+}
+
+.nav-b2 a:visited {
+  color: black;
+}
+
+.nav-b2 a:hover {
+  color: white;
+}
+
+.nav-b2 a:active {
+  color: white;
+}
+
+.support {
+  padding-top: 23px;
+}
+
+.legal-content {
+  display: flex;
+  flex-flow: column;
+  padding-left: 432px;
+  text-align: center;
+}
+
+.legal {
+  font-family: balboa-plus-primary, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.nav-b3 {
+  list-style: none;
+  font-family: amandine, sans-serif;
+  font-size: 40px;
+  padding-inline-start: 0;
+  margin: 0;
+  padding-top: 23px;
+}
+
+.nav-b3 a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.nav-b3 :link {
+  text-decoration: none;
+}
+
+.nav-b3 a:visited {
+  color: black;
+}
+
+.nav-b3 a:hover {
+  color: white;
+}
+
+.nav-b3 a:active {
+  color: white;
 }
