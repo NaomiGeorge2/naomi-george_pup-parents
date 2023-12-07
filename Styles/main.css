@@ -17,7 +17,7 @@ main {
 .title-screen {
   background-color: #9cba79;
   background-image: url(..Images/DSC_0095.png);
-  /* height: 137px; */
+  /*height: 137px; */
   width: 1920px;
   background-image: linear-gradient(45deg, #4f761b 1%, #c8e2c6 100%),
     linear-gradient(-45deg, #c8e2c6 0%, #9cba79 80%);
@@ -84,7 +84,7 @@ h1 {
 .tc {
   background-color: #90b18b;
   margin: -29px auto 0 auto;
-  height: 90px;
+  height: 61px;
   width: 1920px;
   font-family: amandine, sans-serif;
   font-style: normal;
@@ -105,7 +105,7 @@ h1 {
 
 .nav-tc li {
   display: inline-flex;
-  margin: 0 2em;
+  margin: -10px 2em;
   padding-inline-start: 1em;
   padding-inline-end: 1em;
   padding-top: 1em;
@@ -421,18 +421,6 @@ p {
   font-size: 40px;
 }
 
-h1 {
-  background-repeat: no-repeat;
-  font-size: 80px;
-  font-weight: lighter;
-  margin: -141px auto 0px;
-  font-family: renata, sans-serif;
-  color: white;
-  padding-left: 350px;
-  padding-top: 20px;
-  position: absolute;
-}
-
 .header1 {
   background-repeat: no-repeat;
   font-size: 80px;
@@ -447,8 +435,8 @@ h1 {
 
 .tc1 {
   background-color: #90b18b;
-  margin: 20px auto 0 -1400px;
-  height: 90px;
+  margin: 40px auto 0 -1400px;
+  height: 61px;
   width: 1920px;
   font-family: amandine, sans-serif;
   font-style: normal;
@@ -469,7 +457,7 @@ h1 {
 
 .nav-tc1 li {
   display: inline-flex;
-  margin: 0 2em;
+  margin: -10px 2em;
   padding-inline-start: 1em;
   padding-inline-end: 1em;
   padding-top: 1em;
@@ -538,9 +526,47 @@ h1 {
   margin-left: 5em;
 }
 
-.nav-ps ul {
+.supplies-link {
+  font-family: amandine, sans-serif;
+  font-style: normal;
+  font-size: 25px;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  margin: 50px 600px 50px 600px;
+  text-decoration-style: none;
+}
+
+.nav-ps ul {
+  color: rgb(66, 66, 66);
+}
+
+.nav-ps li {
+  display: inline-flex;
+  margin: -10px 2em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nav-ps :link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-ps :visited {
+  color: black;
+}
+
+.nav-ps :hover {
+  color: rgb(66, 66, 66);
+}
+.nav-ps :active {
+  color: rgb(66, 66, 66);
+}
+
+.header1 :link {
+  color: rgb(66, 66, 66);
 }
 
 .bottom-content {
